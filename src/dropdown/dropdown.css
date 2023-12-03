@@ -1,27 +1,28 @@
 :root {
-	--button-color: #ffffff;
+  --button-color: #ffffff;
 }
 
 .dropdown {
-	width: 300px;
-	display: flex;
-	align-items: center;
+  width: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .select {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	align-items: center;
-	border-radius: 5px;
-	padding-inline: 10px;
-	user-select: none;
-	cursor: pointer;
-	background-color: var(--button-color);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding-inline: 10px;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--button-color);
+  top: 20%;
 }
 
 @media screen and (max-width: 425px) {
-	.dropdown {
-		width: 240px;
-	}
+  .dropdown {
+    width: 240px;
+  }
 }
